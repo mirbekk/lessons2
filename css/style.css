@@ -167,23 +167,28 @@ li{
 
 .constructor-info{
     max-width: 352px;
+    margin-top: 50px;
 }
 .constructor-green{
-    position: relative;
-    width: 907px;
-    margin: 0 0 0 auto;
+    width: 65%;
+    position: absolute;
+    height: 384px;
+    right: 0;
     background-color: #10BB87;
     background-image: url(../img/icon-group.png);
     background-position: 100% 0;
     background-repeat: no-repeat;
     border-radius: 28px 0 0 0;
-    padding-left: 50px 0 50px 11%;
+}
+.constructor-wrapper{
+    position: relative;
+
 }
 .constructor-img{
-    position: absolute;
-    left: -43;
+    margin-left: -50px;
+    margin-top: 100px;
+    display: block;
 }
-
 .constructor-info h2{
     color: #fff;
     margin-bottom: 44px;
