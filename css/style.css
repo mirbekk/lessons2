@@ -69,6 +69,7 @@ li{
     background-color:  #FFFFFF;
     padding: 12px 30px;
     border-radius: 10px;
+    display: inline-block;
 }
 .con-icon{
     margin-left: 10px;
@@ -83,11 +84,16 @@ li{
     background-position: 50% 100%;
     margin-bottom: 140px;
 }
-.main-title{
+.title{
     font-size: 36px;
     font-weight: 600;
 }
 .line-text{
+    background-image: url(../img/line.png);
+    background-repeat: repeat-x;
+    background-position:  0 100%;
+}
+.line-text-dark{
     background-image: url(../img/line.png);
     background-repeat: repeat-x;
     background-position:  0 100%;
@@ -124,9 +130,13 @@ li{
 .branding-img{
     max-width: 480px;
 }
+.advantage-block{
+    margin-bottom: 160px;
+}
 .advantage-col{
     width: 192px;
 }
+
 .advantage-title{
     font-weight: 600;
     position: relative;
@@ -153,4 +163,32 @@ li{
 }
 .advantage-col p{
     color: #B3B3B3;
+}
+
+.constructor-info{
+    max-width: 352px;
+}
+.constructor-green{
+    position: relative;
+    width: 907px;
+    margin: 0 0 0 auto;
+    background-color: #10BB87;
+    background-image: url(../img/icon-group.png);
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    border-radius: 28px 0 0 0;
+    padding-left: 50px 0 50px 11%;
+}
+.constructor-img{
+    position: absolute;
+    left: -43;
+}
+
+.constructor-info h2{
+    color: #fff;
+    margin-bottom: 44px;
+}
+.constructor-info p{
+    color:  #487B6C;
+    margin-bottom: 28px;
 }

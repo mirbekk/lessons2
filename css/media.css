@@ -35,6 +35,14 @@
         max-width: 45%;
     }
 }
+@media screen and (max-width: 800px){
+    .branding-info{
+        max-width: 100%;
+    }
+    .branding-img{
+        display: none;
+    }
+}
 @media screen and (max-width: 700px){
     .main-title{
         font-size: 28px;
