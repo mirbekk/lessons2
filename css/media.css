@@ -12,6 +12,12 @@
     }
 }
 @media screen and (max-width: 1100px){
+    .container-inner{
+        max-width: 80%;
+    }
+    .row{
+        align-items: center;
+    }
     .nav-inner{
         flex-direction: column;
         justify-content: center;
@@ -24,6 +30,9 @@
     }
     .main-block{
         padding: 10% 0 20%;
+    }
+    .branding-img{
+        max-width: 45%;
     }
 }
 @media screen and (max-width: 700px){
