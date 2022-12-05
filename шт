@@ -43,3 +43,23 @@ git push -'отправка
 ctr+g групировать
 shrift+ctrl+g разгрупировка 
 git clone скопировать папку
+
+
+
+когда добавляем первый раз 
+1)git init жазабыз вобше анан керек эмес
+2)git stus
+3)git add -A 
+4)git commit -m 
+5)git remote add origin  (http url) =>
+6) git push 
+это по порядку
+
+
+
+чтобы добавить измененые файлы
+1)git add -A   ||  git add . 
+2)git commit -m 'любой соз'
+3)git push    ||        git push -u origin name of branch -чтобы отправить  и конец 
+
+это легкий способ в всс коде
